@@ -1,0 +1,27 @@
+{
+  "name": "womxnmentalhealthai",
+  "version": "1.0.0",
+  "description": "An AI agent for women mental health",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "start": "node backend/index.js",
+    "type": "git",
+    "url": "git+ssh://git@github.com/Shumeng-Guo/WomenMentalHealthAI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shumeng-Guo/WomenMentalHealthAI/issues"
+  },
+  "homepage": "https://github.com/Shumeng-Guo/WomenMentalHealthAI#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "openai": "^4.38.2"
+  }
+}
