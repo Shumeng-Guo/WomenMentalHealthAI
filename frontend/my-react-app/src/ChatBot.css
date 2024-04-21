@@ -1,0 +1,82 @@
+/* Chatbot.css */
+.chat-container {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #e0e0e0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .avatar-chat {
+    flex: 0 0 40px;
+    margin-right: 10px;
+  }
+  
+  .avatar-chat img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .chat-area {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .message {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+    background: #e0e0e0;
+  }
+  
+  .message.user {
+    align-self: flex-end;
+    background: #cfeffd;
+  }
+  
+  .message.bot {
+    align-self: flex-start;
+  }
+  
+  .input-area {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #e0e0e0;
+  }
+  
+  .input-area textarea {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    background: white;
+  }
+  
+  .input-area button {
+    border: none;
+    background: #4caf50;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .input-area button i {
+    font-size: 1.2em;
+  }
+  
+  .input-area button:hover {
+    background: #45a049;
+  }
+  
